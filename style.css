@@ -1090,11 +1090,23 @@ footer{
         font-size:17px;
     }
 
- .hero{
+.hero{
     min-height:100vh;
-    padding:180px 25px 60px;
+    height:auto;
+    background:url(hero-mobile.png) center center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 80px;
+    position:relative;
 }
 
+.hero-content{
+    width:100%;
+    max-width:500px;
+}
 .hero h1{
     font-size:38px;
     line-height:1.2;
