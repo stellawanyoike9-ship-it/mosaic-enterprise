@@ -59,6 +59,7 @@ ul{
 section{
     padding:80px 8%;
 }
+
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -228,6 +229,7 @@ textarea:focus-visible{
         transform:translate(-50%,10px);
     }
 }
+
 
 /*=========================
         WELCOME
@@ -1089,7 +1091,7 @@ footer{
         color:#fff;
         font-size:17px;
     }
-
+    
 .hero{
     min-height:100vh;
     height:auto;
@@ -1107,14 +1109,16 @@ footer{
     width:100%;
     max-width:500px;
 }
-.hero h1{
-    font-size:38px;
-    line-height:1.2;
-}
 
-.hero-content p{
-    font-size:15px;
-}
+    .hero h1{
+        font-size:38px;
+        line-height:1.2;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
 
 .hero-buttons{
     flex-direction:column;
@@ -1171,6 +1175,7 @@ footer{
     animation: heroUp 0.8s ease forwards;
     animation-delay:0.9s;
 }
+
 
 @keyframes heroUp{
 
